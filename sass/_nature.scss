@@ -49,6 +49,7 @@
 	background-image: url("../img/nature/Lake-Tahoe-GettyImages-78058659.webp");
 	background-position: center;
 	background-size: cover;
+	transition: transform 0.3s;
 }
 .city-offer-box:hover .city-offer-img-lake {
 	transform: scale(1.05);

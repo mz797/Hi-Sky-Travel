@@ -28,7 +28,7 @@
         <img src="./img/nature/camping-g3dc6af163_1920.jpg" alt="Strumyk płynący u stóp gór." class="header__img">
         <div class="header__shadow"></div>
         <div class="header__text">
-            <h1>Close to <span>nature</span><br>with Hi Sky Travel</h1>
+            <h1>Hi Sky Travel</h1>
             <p>Make your dreams come true!</p>
         </div>
     </header>
@@ -165,11 +165,11 @@
                     </div>
                     <form class="contact1__form" id="contact1__form">
                         <label for="name" class="contact__label">Name:</label>
-                        <input type="text" class="contact__input" id="name">
+                        <input type="text" class="contact__input" id="name" name="nature-name-input">
                         <label for="email1" class="contact__label">E-mail:</label>
-                        <input type="email" class="contact__input" id="email1">
+                        <input type="email" class="contact__input" id="email1" name="nature-email-input">
                         <label for="place" class="contact__label">Place:</label>
-                        <select id="place" class="contact__input">
+                        <select id="place" class="contact__input" name="nature-place-select">
                             <option value="Serengeti National Park">Serengeti National Park</option>
                             <option value="Lauterbrunnen">Lauterbrunnen</option>
                             <option value="Lake Nakuru">Lake Nakuru</option>
@@ -178,10 +178,12 @@
                         </select>
 
                         <label for="email1" class="contact__label">Date:</label>
-                        <input type="date" class="contact__input">
+                        <input type="date" class="contact__input" name="nature-date-input">
                         <label for="msg1" class="contact__label">Message:</label>
-                        <textarea class="contact__input contact__input--textarea" id="msg1"></textarea>
-                        <button class="contact__button" type="submit" form="contact1__form">Book</button>
+                        <textarea class="contact__input contact__input--textarea" id="msg1"
+                            name="nature-msg-input"></textarea>
+                        <button class="contact__button" type="submit" form="contact1__form"
+                            name="nature-btn">Book</button>
                     </form>
                 </div>
             </div>
