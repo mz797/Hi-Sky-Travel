@@ -616,7 +616,7 @@ html {
   background-position-x: -500px;
 }
 .contact--extreme .contact1__img-shadow {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(209, 129, 53, 0.1);
 }
 
 .about-nature {
@@ -696,13 +696,13 @@ html {
   transform: scale(1.05);
 }
 
-.contact--extreme {
+.contact--nature {
   background-color: #ededed;
 }
-.contact--extreme .contact1__img {
+.contact--nature .contact1__img {
   background-image: url("../img/nature/contact.jpg");
   background-position: center;
 }
-.contact--extreme .contact1__img-shadow {
+.contact--nature .contact1__img-shadow {
   background-color: rgba(0, 0, 0, 0.4);
 }/*# sourceMappingURL=style.css.map */
