@@ -1,0 +1,66 @@
+.about-nature {
+	position: relative;
+	font-size: 1.8em;
+	text-indent: 3rem;
+	overflow: hidden;
+	&-text {
+		margin-bottom: 1em;
+		z-index: 100;
+	}
+	.icon {
+		position: absolute;
+		width: 200px;
+		height: 200px;
+		opacity: 0.03;
+	}
+	.first-icon {
+		width: 200px;
+		height: 200px;
+		top: 60%;
+		right: 10%;
+		animation: rotate-right 70s linear infinite both;
+	}
+	.second-icon {
+		width: 400px;
+		height: 400px;
+		top: -00%;
+		left: -10%;
+		animation: rotate-left 100s linear infinite both;
+	}
+}
+@keyframes rotate-right {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+@keyframes rotate-left {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(-360deg);
+	}
+}
+//nature offer
+.city-offer-img-lake {
+	background-image: url("../img/nature/Lake-Tahoe-GettyImages-78058659.webp");
+	background-position: center;
+	background-size: cover;
+}
+.city-offer-box:hover .city-offer-img-lake {
+	transform: scale(1.05);
+}
+//contact nature
+.contact--extreme {
+	background-color: #ededed;
+	.contact1__img {
+		background-image: url("../img/nature/contact.jpg");
+		background-position: center;
+	}
+	.contact1__img-shadow {
+		background-color: rgba(0, 0, 0, 0.4);
+	}
+}
